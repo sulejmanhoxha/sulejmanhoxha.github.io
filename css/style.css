@@ -45,6 +45,9 @@ body {
 /* color: whitesmoke; */
 /* } */
 
+#about {
+  text-align: justify;
+}
 .container {
   background-image: url("../img/mountains.jpg");
   /* no-repeat, repeat, repeat-y, repeat-x */
@@ -200,6 +203,26 @@ caption {
   border-radius: 36px;
 }
 .css {
+  width: 75%;
+  height: 20px;
+  background-color: lightskyblue;
+  border-radius: 36px;
+}
+
+.python {
+  width: 83%;
+  height: 20px;
+  background-color: lightskyblue;
+  border-radius: 36px;
+}
+.java {
+  width: 90%;
+  height: 20px;
+  background-color: lightskyblue;
+  border-radius: 36px;
+}
+
+.sql {
   width: 75%;
   height: 20px;
   background-color: lightskyblue;
