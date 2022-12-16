@@ -2,414 +2,181 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Sulejman Hoxha" />
-    <meta name="description" content="Hi, I'm Sulejman Hoxha." />
-    <link rel="icon" href="img/code-slash.svg" type="image/x-icon" />
+    <meta
+      name="description"
+      content="This page contains basic information about me"
+    />
     <title>Sulejman Hoxha</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
-    />
-    <style>
-      .background {
-        background-image: url("img/mountains.jpg");
-        background-color: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 70vh;
-      }
-    </style>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+
+    <link rel="stylesheet" href="toruskit.blobz/blobz.min.css">
   </head>
 
   <body>
     <header>
-      <nav
-        class="navbar navbar-expand-xl navbar-dark col"
-        style="background-color: #0f1b33"
-      >
-        <div class="container">
-          <a class="navbar-brand col-9" href="#">
-            <i class="bi bi-code-slash"></i> Sulejman Hoxha</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-3">
-              <li class="nav-item">
-                <a class="nav-link mx-4" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-4" href="#education">Education</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-4" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-4" href="#contact">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-4" href="#socials">Socials</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <nav class="navigation">
+        <ul>
+          <li>
+            <a href="#about">About Me</a>
+          </li>
+
+          <li>
+            <a href="#education_skills">Education and Certificates</a>
+          </li>
+          <li>
+            <a href="#languages_certificates">Languages and Skills</a>
+          </li>
+        </ul>
       </nav>
     </header>
 
     <main>
-      <div class="background d-flex justify-content-center align-items-center">
-        <div class="row container">
-          <div class="col-md-5">
-            <img
-              src="img/me_main.png"
-              alt="Profile Picture"
-              title="My Profile"
-              class="img-fluid rounded-circle"
-            />
-          </div>
-          <div class="col-md-7 d-flex align-items-center text-light">
-            <div>
-              <p class="display-1 text-center">Sulejman Hoxha</p>
-              <p class="display-4 text-center">Programmer</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="py-5" style="background-color: #0f1b33" id="about">
-        <div
-          class="card container rounded-4 p-2"
-          style="background-color: #466394"
-        >
-          <div class="row g-0">
-            <div class="col-md-4 d-flex align-items-center">
+      <article>
+        
+        <div class="container">
+          <section class="hero">
+            
+            <figure class="profile-pic-figure">
+              <!-- <div class="tk-blob">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 747.2 726.7">
+                  <path d="M539.8 137.6c98.3 69 183.5 124 203 198.4 19.3 74.4-27.1 168.2-93.8 245-66.8 76.8-153.8 136.6-254.2 144.9-100.6 8.2-214.7-35.1-292.7-122.5S-18.1 384.1 7.4 259.8C33 135.6 126.3 19 228.5 2.2c102.1-16.8 213.2 66.3 311.3 135.4z"></path>
+                </svg>
+              </div> -->
               <img
-                src="img/IMG-f7ad5098fdeb620d605cdf4cf52e9367-V.jpg"
-                class="img-fluid rounded-3"
-                alt="..."
+                src="img/me_main.png"
+                alt="Profile Picture"
+                title="My Profile"
+                width="501"
+                height="498"
               />
-            </div>
-            <div class="col-md-8 d-flex align-items-center">
-              <div class="card-body text-center">
-                <h3 class="card-title" style="color: #d5dfe5">About me</h3>
-                <p
-                  class="card-text"
-                  style="text-align: justify; color: #d5dfe5"
-                >
-                  Hi there! My name is Sulejman Hoxha and I am a student with a
-                  passion for programming. I have a strong background in
-                  languages like Java, HTML, CSS, JavaScript, PHP, and Python,
-                  and I enjoy staying up-to-date with the latest developments in
-                  the field. In my current role as a student, I have had the
-                  opportunity to work on a variety of projects that have allowed
-                  me to hone my skills and expand my knowledge. I am always
-                  looking for new challenges and opportunities to grow as a
-                  programmer, and I am excited to see where my studies and
-                  future career take me next.
-                </p>
-              </div>
-            </div>
-          </div>
+              <figcaption class="offscreen">Sulejman Hoxha</figcaption>
+            </figure>
+
+            <h1 class="h1">
+              <span class="nowrap">Hello,</span>
+              <span class="nowrap">I'm Sulejman</span>
+            </h1>
+          </section>
         </div>
-      </div>
 
-      <div
-        class="d-flex p-5 justify-content-center align-items-center"
-        style="background-color: #2c4458"
-        id="education"
-      >
-        <div
-          class="row container-fluid gap-5 d-flex justify-content-center"
-          style="color: #d5dfe5"
-        >
-          <div
-            class="col-md-5 p-3 rounded-4 text-center"
-            style="text-align: justify; background-color: #466394"
-          >
-            <p class="h2 mb-3">Education</p>
-            <p class="m-0">(2007 - 2016)</p>
-            <p class="mb-4 h3">Primary school "Marsal Tito"</p>
-            <p class="m-0">(2016 - 2020)</p>
-            <p class="mb-4 h3">High School "Bratstvo jedinstvo"</p>
-            <p class="m-0">(2020 - )</p>
-            <p class="h4">University of Donja Gorica</p>
-            <p class="h4">
-              Faculty of Information Systems and Technology Bachelor's degree
-            </p>
-          </div>
 
-          <div
-            class="col-md-5 p-3 rounded-4 text-center"
-            style="background-color: #466394"
-            id="skills"
-          >
-            <div class="row">
-              <h2 class="mb-3">Programming skills</h2>
-              <div class="d-flexflex-column gap-1">
-                <div class="row">
-                  <p class="col-3">Java</p>
-                  <div class="col-9">
-                    <div class="progress" style="height: 19px; color: #0f1b33">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated"
-                        role="progressbar"
-                        aria-valuenow="75"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 75%"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
+        <section id="about" class="section_padding">
+          <h2>About me</h2>
+          <p>
+            My name is Sulejman Hoxha and i live in Ulcinj, Montenegro.Im a
+            student at the University of Donja Gorica and i am studying in the
+            Faculty of information systems and technology. So far i have learned
+            many programming languages like:
+          </p>
+        </section>
+        <hr />
 
-                <div class="row">
-                  <p class="col-3">Python</p>
-                  <div class="col-9">
-                    <div class="progress" style="height: 19px">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated"
-                        role="progressbar"
-                        aria-valuenow="85"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 85%"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
 
-                <div class="row">
-                  <p class="col-3">HTML</p>
-                  <div class="col-9">
-                    <div class="progress" style="height: 19px">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated"
-                        role="progressbar"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 100%"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <p class="col-3">CSS</p>
-                  <div class="col-9">
-                    <div class="progress" style="height: 19px">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated"
-                        role="progressbar"
-                        aria-valuenow="68"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 68%"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <p class="col-3">JavaScript</p>
-                  <div class="col-9">
-                    <div class="progress" style="height: 19px">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated"
-                        role="progressbar"
-                        aria-valuenow="70"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 70%"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <p class="col-3">PHP</p>
-                  <div class="col-9">
-                    <div class="progress" style="height: 19px">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated"
-                        role="progressbar"
-                        aria-valuenow="50"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 50%"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <p class="col-3">SQL</p>
-                  <div class="col-9">
-                    <div class="progress" style="height: 19px">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated"
-                        role="progressbar"
-                        aria-valuenow="90"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 90%"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <section id="education_skills" >
+            <div class="box left section_padding">
+                <h2>Education</h2>
+                <ul>
+                  <li>(2007 - 2016) Primary school"Marsal Tito"</li>
+                  <li>(2016 - 2020) High School "Bratstvo jedinstvo"</li>
+                  <li>
+                    (2020 - ) University of Donja Gorica,Information Technology,
+                    Bachelor's degree ·
+                  </li>
+                </ul>
             </div>
-          </div>
+              <div class="box right section_padding">
+                  <h2>Programming skills</h2>
+                  <ul>
+                    <li>Java
+
+
+                   
+                    </li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SQL</li>
+                  </ul>
+                </div>
+        </section>
+        <hr>
+
+        <section id="languages_certificates">
+            <div class="box left section_padding" >
+                <h2>Languages</h2>
+                <ul>
+                  <li>Java</li>
+                  <li>Python</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>SQL</li>
+                </ul>
+              </div>
+      
+              <div class="box right section_padding">
+                  <h2>Certificates</h2>
+                  <ul>
+                    <li>(2007 - 2016) Primary school"Marsal Tito"</li>
+                    <li>(2016 - 2020) High School "Bratstvo jedinstvo"</li>
+                    <li>
+                      (2020 - ) University of Donja Gorica,Information Technology,
+                      Bachelor's degree ·
+                    </li>
+
+                    
+                  </ul>
+              <hr />
+
         </div>
-      </div>
-
-      <div class="p-5" style="background-color: #0f1b33" id="contact">
-        <div class="container p-3 rounded-4">
-          <h2 class="text-center text-white mb-3 mt-0">Contact</h2>
-          <form action="" method="post" class="d-flex flex-column gap-2">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-floating">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    placeholder="Name"
-                  />
-                  <label for="name">Name</label>
-                </div>
-              </div>
-              <br />
-              <br />
-              <br />
-
-              <div class="col-md-6">
-                <div class="form-floating">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="email"
-                    placeholder="name@example.com"
-                  />
-                  <label for="email">Email address</label>
-                </div>
-              </div>
-            </div>
-
-            <div class="form-floating">
-              <input
-                type="text"
-                class="form-control"
-                id="subject"
-                placeholder="Subject"
-              />
-              <label for="subject">Subject</label>
-            </div>
-
-            <div class="form-floating">
-              <textarea
-                class="form-control"
-                placeholder="Leave a message here"
-                id="message"
-                style="height: 200px"
-              ></textarea>
-              <label for="message">Leave a message here</label>
-            </div>
-          </form>
-        </div>
-      </div>
+        
+        
+      </article>
     </main>
 
-    <div
-      class="p-5 d-flex justify-content-center align-items-center"
-      style="background-color: #2c4458"
-      id="socials"
-    >
-      <div class="row container-fluid gap-5 d-flex justify-content-center">
-        <div class="col-md-5 d-flex justify-content-center">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d742.0512038626994!2d19.206906817853433!3d41.93145007509999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134e135c4189a45f%3A0x44b1186788386f1d!2zNDHCsDU1JzUzLjIiTiAxOcKwMTInMjYuOCJF!5e0!3m2!1sen!2s!4v1670886045110!5m2!1sen!2s"
-            width="300"
-            height="200"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-        <div class="col-md-2 d-flex flex-column gap-2">
-          <div>
-            <a
-              class="link-info"
-              href="https://www.facebook.com/sulejmanmano.hoxha/"
-              target="_blank"
-              ><i class="bi bi-facebook"></i> Facebook</a
-            >
-          </div>
-          <div>
-            <a
-              class="link-info"
-              href="https://www.instagram.com/sulejman.hoxha/?next=%2F"
-              target="_blank"
-              ><i class="bi bi-instagram"></i> Instagram</a
-            >
-          </div>
-          <div>
-            <a
-              class="link-info"
-              href="https://www.linkedin.com/in/sulejmanhoxha/"
-              target="_blank"
-              ><i class="bi bi-linkedin"></i> Linkedin</a
-            >
-          </div>
-        </div>
-        <div class="col-md-3 d-flex flex-column gap-2 text-white">
-          <div><i class="bi bi-telephone"></i> +69 828 364</div>
-          <div>
-            <i class="bi bi-envelope-at"></i> sulejman.hoxha2001@hotmail.com
-          </div>
-          <div>
-            <a
-              class="link-info"
-              href="Europass CV - Sulejman Hoxha.pdf"
-              target="_blank"
-              ><i class="bi bi-arrow-down-circle"></i> Download CV and
-              certificates</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
+    <footer class="footer">
+      <ul>
+        <li>
+          <a
+            href="https://www.facebook.com/sulejmanmano.hoxha/"
+            target="_blank"
+          >
+            <img src="img/facebook 2.svg" alt="Facebook"
+          /></a>
+        </li>
 
-    <div class="p-2" style="height: 40px; background-color: #0f1b33">
-      <p class="text-center text-white">&copy;Copyright Sulejman Hoxha</p>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-      crossorigin="anonymous"
-    ></script>
+        <li>
+          <a
+            href="https://www.instagram.com/sulejman.hoxha/?next=%2F"
+            target="_blank"
+            ><img src="img/icons8-instagram.svg" alt="Instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/sulejmanhoxha/" target="_blank"
+            ><img src="img/icons8-linkedin.svg" alt="LinkedIn"
+          /></a>
+        </li>
+
+        <li>
+          <p>&lt;&lt;&lt; &copy; Sulejman Hoxha &gt;&gt;&gt;</p>
+          <a href="#">Back to top</a>
+        </li>
+        <li>
+          <a
+            href="mailto:random@email.com subject=Test poruka&body=Napisite vas komentar "
+          >
+            <img src="img/icons8-circled-envelope-48.png" alt="Email" />
+          </a>
+        </li>
+        <li>
+          <a href="tel:+069123123"
+            ><img src="img/icons8-phone.svg" alt="Phone number"
+          /></a>
+        </li>
+        <li><address>Nova mahala, Ulcinj</address></li>
+      </ul>
+    </footer>
   </body>
 </html>
